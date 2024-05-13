@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143AAE14212A9127006F8049 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 143AAE13212A9127006F8049 /* AppDelegate.m */; };
+		143AAE1C212A9129006F8049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143AAE1B212A9129006F8049 /* Assets.xcassets */; };
+		143AAE1F212A9129006F8049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143AAE1D212A9129006F8049 /* LaunchScreen.storyboard */; };
+		143AAE22212A9129006F8049 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 143AAE21212A9129006F8049 /* main.m */; };
+		143AAE2A212A9139006F8049 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143AAE29212A9139006F8049 /* GLKit.framework */; };
+		143AAE2C212A9140006F8049 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143AAE2B212A9140006F8049 /* OpenGLES.framework */; };
+		143AAE32212A9240006F8049 /* PyramidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143AAE31212A9240006F8049 /* PyramidViewController.m */; };
+		14827721212BE06C0080B4CC /* muxiang.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 14827720212BE06C0080B4CC /* muxiang.jpeg */; };
+		26FA3E16213ECA3B00E2410F /* cat.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 26FA3E15213ECA3B00E2410F /* cat.JPG */; };
+		2B484F912139242300BDE52B /* CircularConeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B484F902139242300BDE52B /* CircularConeViewController.m */; };
+		2B4AE728213E5ED100CB4A5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4AE727213E5ED100CB4A5E /* ViewController.m */; };
+		2BB13694218ACC870017A8B3 /* PlanetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB13690218ACC870017A8B3 /* PlanetViewController.m */; };
+		2BB13695218ACC870017A8B3 /* SquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB13692218ACC870017A8B3 /* SquareViewController.m */; };
+		544920202BF2215E00DCD0EE /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5449201D2BF2215E00DCD0EE /* Moon.png */; };
+		544920212BF2215E00DCD0EE /* Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5449201F2BF2215E00DCD0EE /* Earth.jpg */; };
+		544920242BF221B500DCD0EE /* MoonAndEarthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544920232BF221B500DCD0EE /* MoonAndEarthViewController.m */; };
+		544920272BF221DE00DCD0EE /* MoonAndEarthVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 544920262BF221DE00DCD0EE /* MoonAndEarthVertexAttribArrayBuffer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		143AAE0F212A9127006F8049 /* OpenGLTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		143AAE12212A9127006F8049 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		143AAE13212A9127006F8049 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		143AAE1B212A9129006F8049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		143AAE1E212A9129006F8049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		143AAE20212A9129006F8049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143AAE21212A9129006F8049 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		143AAE29212A9139006F8049 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		143AAE2B212A9140006F8049 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		143AAE30212A9240006F8049 /* PyramidViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PyramidViewController.h; sourceTree = "<group>"; };
+		143AAE31212A9240006F8049 /* PyramidViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PyramidViewController.m; sourceTree = "<group>"; };
+		14827720212BE06C0080B4CC /* muxiang.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muxiang.jpeg; sourceTree = "<group>"; };
+		26FA3E15213ECA3B00E2410F /* cat.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.JPG; sourceTree = "<group>"; };
+		2B484F8F2139242300BDE52B /* CircularConeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularConeViewController.h; sourceTree = "<group>"; };
+		2B484F902139242300BDE52B /* CircularConeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularConeViewController.m; sourceTree = "<group>"; };
+		2B4AE726213E5ED100CB4A5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B4AE727213E5ED100CB4A5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BB13690218ACC870017A8B3 /* PlanetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetViewController.m; sourceTree = "<group>"; };
+		2BB13691218ACC870017A8B3 /* PlanetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetViewController.h; sourceTree = "<group>"; };
+		2BB13692218ACC870017A8B3 /* SquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareViewController.m; sourceTree = "<group>"; };
+		2BB13693218ACC870017A8B3 /* SquareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareViewController.h; sourceTree = "<group>"; };
+		5449201D2BF2215E00DCD0EE /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon.png; sourceTree = "<group>"; };
+		5449201E2BF2215E00DCD0EE /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		5449201F2BF2215E00DCD0EE /* Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth.jpg; sourceTree = "<group>"; };
+		544920222BF221B500DCD0EE /* MoonAndEarthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoonAndEarthViewController.h; sourceTree = "<group>"; };
+		544920232BF221B500DCD0EE /* MoonAndEarthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoonAndEarthViewController.m; sourceTree = "<group>"; };
+		544920252BF221DE00DCD0EE /* MoonAndEarthVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoonAndEarthVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		544920262BF221DE00DCD0EE /* MoonAndEarthVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoonAndEarthVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		143AAE0C212A9127006F8049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143AAE2C212A9140006F8049 /* OpenGLES.framework in Frameworks */,
+				143AAE2A212A9139006F8049 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		143AAE06212A9127006F8049 = {
+			isa = PBXGroup;
+			children = (
+				143AAE11212A9127006F8049 /* OpenGLTest */,
+				143AAE10212A9127006F8049 /* Products */,
+				143AAE28212A9139006F8049 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		143AAE10212A9127006F8049 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				143AAE0F212A9127006F8049 /* OpenGLTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		143AAE11212A9127006F8049 /* OpenGLTest */ = {
+			isa = PBXGroup;
+			children = (
+				143AAE12212A9127006F8049 /* AppDelegate.h */,
+				143AAE13212A9127006F8049 /* AppDelegate.m */,
+				2B4AE726213E5ED100CB4A5E /* ViewController.h */,
+				2B4AE727213E5ED100CB4A5E /* ViewController.m */,
+				143AAE30212A9240006F8049 /* PyramidViewController.h */,
+				143AAE31212A9240006F8049 /* PyramidViewController.m */,
+				2BB13691218ACC870017A8B3 /* PlanetViewController.h */,
+				2BB13690218ACC870017A8B3 /* PlanetViewController.m */,
+				2BB13693218ACC870017A8B3 /* SquareViewController.h */,
+				2BB13692218ACC870017A8B3 /* SquareViewController.m */,
+				2B484F8F2139242300BDE52B /* CircularConeViewController.h */,
+				2B484F902139242300BDE52B /* CircularConeViewController.m */,
+				544920222BF221B500DCD0EE /* MoonAndEarthViewController.h */,
+				544920232BF221B500DCD0EE /* MoonAndEarthViewController.m */,
+				544920252BF221DE00DCD0EE /* MoonAndEarthVertexAttribArrayBuffer.h */,
+				544920262BF221DE00DCD0EE /* MoonAndEarthVertexAttribArrayBuffer.m */,
+				2B4AE729213E62F000CB4A5E /* Supporting Files */,
+			);
+			path = OpenGLTest;
+			sourceTree = "<group>";
+		};
+		143AAE28212A9139006F8049 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				143AAE2B212A9140006F8049 /* OpenGLES.framework */,
+				143AAE29212A9139006F8049 /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B4AE729213E62F000CB4A5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5449201F2BF2215E00DCD0EE /* Earth.jpg */,
+				5449201D2BF2215E00DCD0EE /* Moon.png */,
+				5449201E2BF2215E00DCD0EE /* sphere.h */,
+				26FA3E15213ECA3B00E2410F /* cat.JPG */,
+				14827720212BE06C0080B4CC /* muxiang.jpeg */,
+				143AAE21212A9129006F8049 /* main.m */,
+				143AAE1B212A9129006F8049 /* Assets.xcassets */,
+				143AAE1D212A9129006F8049 /* LaunchScreen.storyboard */,
+				143AAE20212A9129006F8049 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		143AAE0E212A9127006F8049 /* OpenGLTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143AAE25212A9129006F8049 /* Build configuration list for PBXNativeTarget "OpenGLTest" */;
+			buildPhases = (
+				143AAE0B212A9127006F8049 /* Sources */,
+				143AAE0C212A9127006F8049 /* Frameworks */,
+				143AAE0D212A9127006F8049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLTest;
+			productName = OpenGLTest;
+			productReference = 143AAE0F212A9127006F8049 /* OpenGLTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		143AAE07212A9127006F8049 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = suzhihong;
+				TargetAttributes = {
+					143AAE0E212A9127006F8049 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 143AAE0A212A9127006F8049 /* Build configuration list for PBXProject "OpenGLTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 143AAE06212A9127006F8049;
+			productRefGroup = 143AAE10212A9127006F8049 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				143AAE0E212A9127006F8049 /* OpenGLTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		143AAE0D212A9127006F8049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544920212BF2215E00DCD0EE /* Earth.jpg in Resources */,
+				143AAE1F212A9129006F8049 /* LaunchScreen.storyboard in Resources */,
+				14827721212BE06C0080B4CC /* muxiang.jpeg in Resources */,
+				544920202BF2215E00DCD0EE /* Moon.png in Resources */,
+				26FA3E16213ECA3B00E2410F /* cat.JPG in Resources */,
+				143AAE1C212A9129006F8049 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		143AAE0B212A9127006F8049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B484F912139242300BDE52B /* CircularConeViewController.m in Sources */,
+				2BB13695218ACC870017A8B3 /* SquareViewController.m in Sources */,
+				143AAE32212A9240006F8049 /* PyramidViewController.m in Sources */,
+				544920272BF221DE00DCD0EE /* MoonAndEarthVertexAttribArrayBuffer.m in Sources */,
+				2BB13694218ACC870017A8B3 /* PlanetViewController.m in Sources */,
+				143AAE22212A9129006F8049 /* main.m in Sources */,
+				2B4AE728213E5ED100CB4A5E /* ViewController.m in Sources */,
+				544920242BF221B500DCD0EE /* MoonAndEarthViewController.m in Sources */,
+				143AAE14212A9127006F8049 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		143AAE1D212A9129006F8049 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				143AAE1E212A9129006F8049 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		143AAE23212A9129006F8049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		143AAE24212A9129006F8049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		143AAE26212A9129006F8049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DH6P4GZ73C;
+				INFOPLIST_FILE = OpenGLTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangyue.OpenGLTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		143AAE27212A9129006F8049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DH6P4GZ73C;
+				INFOPLIST_FILE = OpenGLTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangyue.OpenGLTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		143AAE0A212A9127006F8049 /* Build configuration list for PBXProject "OpenGLTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143AAE23212A9129006F8049 /* Debug */,
+				143AAE24212A9129006F8049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		143AAE25212A9129006F8049 /* Build configuration list for PBXNativeTarget "OpenGLTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143AAE26212A9129006F8049 /* Debug */,
+				143AAE27212A9129006F8049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 143AAE07212A9127006F8049 /* Project object */;
+}
